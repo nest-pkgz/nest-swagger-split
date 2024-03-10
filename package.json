@@ -1,11 +1,16 @@
 {
   "name": "@nest-pkgz/nest-swagger-split",
   "version": "0.0.1",
-  "description": "Split Swagger documentation to multiple objects",
+  "description": "Split Swagger documentation to multiple files",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "rm -rf dist && tsc -p tsconfig.build.json"
+    "build": "rm -rf dist && tsc -p tsconfig.build.json",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nest-pkgz/nest-swagger-split.git"
   },
   "devDependencies": {
     "@types/lodash.merge": "^4.6.9",
