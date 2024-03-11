@@ -6,7 +6,7 @@ Installation
 ------------
 ### NPM
 ```shell
-npm install @myrror-security/cache-manager-redis-store --save
+npm install @nest-pkgz/nest-swagger-split --save
 ```
 
 Quick Start
